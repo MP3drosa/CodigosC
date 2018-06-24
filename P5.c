@@ -9,7 +9,8 @@ void codificar()
 	int *ps, i=0;
 	
 	printf("\nDigite uma mensagem: ");
-	gets(s);
+	scanf("%s", s);
+	getchar();
 	char *pmsg=s;
 	printf("Codificada: ");
 	for(i=0;s[i];i++)
