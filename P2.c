@@ -1,5 +1,5 @@
-//Nome: Rafael Daily Santos Martins
-//Matrícula: 11721EEL001
+//Nome: Matheus Pedrosa Couto
+//MatrÃ­cula: 11811EEL019
 #include <stdio.h>
 
 void octaldecimal(int oct[], int num)
