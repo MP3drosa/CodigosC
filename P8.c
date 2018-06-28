@@ -42,7 +42,7 @@ int main()
 	    r = somatorio(vetor,99);
 	else if( aux == 2)
 	    r = produtorio(vetor,99);
-	printf("\n\n%.2f", r);
+	printf("\n\n%f", r);
 	return 0;
 
 	
