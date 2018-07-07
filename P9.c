@@ -5,7 +5,7 @@
 
 int main()
 {
-	int aux, prod;
+	int aux = 1, prod;
 	struct Dimensoes
 	{
 		float largura;
@@ -37,7 +37,7 @@ int main()
 	    	if(prod == 1)
 	    	{
 		    	printf("\nDigite o nome do produto: \n\n");
-		        scanf("%s", &produto1.nome);
+		        scanf("%s", produto1.nome);
 		        getchar();
 		        printf("\nDigite o preco do produto: \n\n");
 		        scanf("%f", &produto1.preco);
@@ -49,7 +49,7 @@ int main()
 		    else if(prod == 2)
 		    {
 		 	    printf("\nDigite o nome do produto: \n\n");
-		        scanf("%s", &produto2.nome);
+		        scanf("%s", produto2.nome);
 		        getchar();
 				printf("\nDigite o preco do produto: \n\n");
 		        scanf("%f", &produto2.preco);
@@ -79,4 +79,3 @@ int main()
 	    }
     }
 }
-
